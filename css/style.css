@@ -1,0 +1,541 @@
+    /* Google Fonts
+
+    font-family: 'Anton', sans-serif;
+    font-family: 'Homemade Apple', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik 80s Fade', cursive;
+    font-family: 'Rubik Dirt', cursive;
+    font-family: 'Rubik Spray Paint', cursive;
+    font-family: 'Share Tech Mono', monospace;
+
+    */
+
+    *{
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    header{
+        display: flex;
+        background-color: white;
+        width: 100%;
+        justify-content: center;
+        background-color: yellow;
+        min-width: 500px;
+        
+        
+        
+    }
+
+    .encabezado img{
+
+        width: 50px;
+        height: 50px;
+
+    }
+
+
+
+    .logo{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        
+    }
+
+    .encabezado{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        
+    }
+
+    .encabezado h2{
+        font-family: 'Poppins', sans-serif;
+        justify-items: center;
+        font-weight: bold;
+    }
+
+    .encabezado-lista{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        list-style: none;
+        margin-left: 20px;
+        margin-right: 10px;
+        gap: 8px;
+        text-decoration: none;
+    }
+
+    .encabezado-lista a{
+        text-decoration: none;
+        color: rgb(45, 45, 45);
+    }
+
+    .buscador{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+    }
+
+    .buscador button{
+        background-color: coral;
+        border: solid 1px rgb(138, 37, 1);
+        border-radius: 10px 0px 0px 10px;
+        padding: 2px;
+    }
+    .buscador input{
+
+        border: solid 1px rgb(138, 37, 1);
+        border-radius: 0px 10px 10px 0px;
+    }
+
+    .iconos{
+        display: flex;
+        justify-content:flex-end;
+        align-items: flex-end;
+        gap: 15px;
+        margin-left: 25px;
+        text-decoration: none;
+    }
+    .iconos a{
+        text-decoration: none;
+        color: black;
+    }
+
+
+
+    /* aviso promo */
+
+    .promo{
+        
+        display: flex;
+        flex-wrap: wrap; 
+        min-width: 320px;
+        width: 100%;
+        height: 25px;
+        background-color: black;
+        color: yellow;
+        text-align: center;
+        justify-content: center;
+        text-align: center;
+        min-width: 500px;
+        
+    }
+
+    .promo p{
+        flex-wrap: wrap;
+    }
+
+
+    /* Barra  */
+
+
+    .Barra-lista{
+        display: flex;
+        flex-wrap: wrap;
+        height: 150px;
+        margin: 5px;
+        min-width: 500px;
+        justify-content:center;
+        background-color: rgb(255, 255, 68);
+        margin: 0px;
+        
+    }
+
+    .lista{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        width: 100%;
+    
+        flex-wrap: wrap;
+        justify-content:space-between;
+        font-size: 15px;
+        list-style: none;
+        text-decoration: none;
+        font-family: 'Anton', sans-serif;
+        
+    }
+
+    .lista li{
+        flex-wrap: wrap;
+        margin-left: 3px;
+    }
+
+    .lista a{
+        
+        text-decoration: none;
+        color:rgb(13, 31, 90);
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        margin-left: 3px;
+        
+        
+    }
+
+    .lista li a{
+        margin-right:10px;
+    }
+
+
+    .sublista{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-direction:row;
+        justify-content: baseline;
+    
+        
+    }
+
+    .sublista li{
+        flex-direction: row;
+    }
+
+    .sublista li a{
+        display: flex;
+        flex-direction:row;
+    
+        margin: 2px;
+    
+    }
+
+
+
+
+
+    .lista ul li{
+        width: 100%;
+
+        display: none;
+        margin: 3px;
+    }
+
+    .lista ul li {
+        margin-left: 20px;
+        
+        flex-direction:row;
+        
+    }
+
+    .sublista{
+
+        height: 100px;
+
+    }
+    .lista li:hover{
+        
+    }
+
+    .lista li:hover li{
+
+        display: block;
+        flex-direction:row;
+        flex-wrap: wrap;
+        z-index: 999;
+        
+        
+
+        
+        
+    }
+
+    .lista li:hover li a{
+        
+        display:block;
+        position:absolute;
+        
+
+    }
+
+
+
+
+    /* main tarjetas */
+
+
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        justify-content: center;
+        margin-top: 100px;
+        margin: 10px;
+        min-width: 500px;
+        
+        
+        
+    }
+
+    .cards img{
+
+        width: 400px;
+        height: 200px;
+    }
+    .card h2{
+        position: absolute;
+        top:20%;
+        left: 35%;
+        text-align: center;
+        align-content: center;
+        color: white;
+    }
+
+
+    .card{
+    width: 400px;
+    height: 400px;
+    margin: 5px;
+    border: 1px solid black;
+    }
+
+    .card-icon img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .card-icon{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+    }
+
+
+    /* Footer */
+
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: rgb(28, 28, 36);
+        min-width: 500px;
+    }
+
+    .lista-footer li{
+        list-style:none;
+    }
+    .lista-footer li a{
+        
+        color: white;
+        margin-top: 10px;
+        text-decoration: none;
+    }
+
+    .mapa{
+        text-align: center;
+        margin-top: 10px;
+        flex-wrap: wrap;
+    }
+
+    .mapa h2{
+        color: white;
+    }
+
+    .contacto{
+        justify-content: center;
+        align-self: flex-end;
+        margin: 10px;
+        flex-wrap: wrap;
+    }
+
+    .contacto p{
+
+        color: white;
+        
+    }
+    .contacto img{
+        width: 60px;
+        height: 60px;
+    }
+    .redes{
+        
+        align-self: flex-end;
+        margin: 10px;
+        flex-wrap: wrap;
+    }
+
+    .redes img{
+
+        width: 60px;
+        height: 60px;
+        margin: 5px;
+    }
+    .redes p{
+        color: white;
+    }
+
+
+
+
+
+    /* RESPONSIVO */
+
+    @media screen and (max-width:690px){
+
+        .buscador{
+            margin: 30px 30px 30px 200px;
+        
+        }
+
+
+    }
+
+
+
+    @media screen and (max-width:420px){
+
+        .iconos{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            align-items: flex-end;
+
+        }
+
+        .encabezado{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            margin-top: 30px;
+        }
+        .encabezado img{
+
+            width: 20px;
+            height: 20px;
+            
+        
+        }
+
+        .buscador{
+            display: none;
+        }
+
+        .Barra-lista{
+            
+            height: 90px;
+            
+        }
+
+        .buscador{
+
+            align-items: center;
+        }
+
+        .promo{
+            display: flex;
+            flex-wrap: wrap;
+            width: 400px;
+        }
+    }
+
+/* Catalogo */
+
+.tarjetas-cuotas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 30px;
+    justify-content: center;
+    background-color: beige;
+    min-width: 500px;
+    
+}
+
+.tarjetas-cuotas img{
+
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+.tarjetas_catalogo{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    border: 1px solid black;
+}
+
+.carrito_catalogo{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border: solid 1px black;
+    
+}
+
+.bar{
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 500px;
+}
+
+.barra_catalogo ul{
+    display: flex;
+    flex-direction: row;
+    position:sticky;
+    flex-wrap: wrap;
+    list-style:none ;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    background-color:rgb(159, 157, 157);
+    border-radius: 2px 2px 2px 2px;
+    
+}
+
+.barra_catalogo ul li a{
+
+
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    
+}
+
+.barra_catalogo ul li ul{
+    display: none;
+    text-align: center;
+    
+    
+}
+
+.barra_catalogo ul li:hover ul {
+
+    display:block;
+    position:absolute; 
+
+    width: 150px;
+    height: 200px;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    
+    
+}
+
+.barra_catalogo ul li ul li {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align:center;
+    justify-content: center;
+    gap:10px;
+    
+
+}
+.card img{
+    width: 100%;
+    
+}
+
